@@ -1,0 +1,42 @@
+html{
+    font-size: 24px; /*establece el tamaño de la fuente padre*/
+}
+
+h1{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 1rem; /* 1html=24px por lo tanto 1rem=24px*/
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 1.5rem
+}
+
+h5{
+    font-size: 1.25rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+.contenedor{
+    width: 70%; /*establece el ancho de la clase contenedor*/
+    height: 400px;/*estalece la altura a 400px del objeto en la clase contenedor*/
+    background-color: aqua;/*el color de la clase contenedor es color aqua*/
+    margin: 30px auto;
+}
+
+.hijo {
+    width: 70vw; /*VW se refiere  al ancho de la pantalla y cada vw es igual al 1%*/
+    height: 50vh;/**el vh será la altura de la pantalla del dispositivo y cada vh es igual al 1%*/
+    background-color: blue;/*el color de la clase hijo sera azul*/
+    margin: 30px auto;
+}
+
